@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left{
+    width: 50%;
+    float: left;
+    border: none;
+}
+
+
+.right{
+    width: 50%;
+    float: right;
+    border: none;
+  
+    
+}
+
+#logo{
+    width:100px;
+    height:100px;
+}
+
+.right h1{
+    margin: 10px;
+    font-size:40px;
+    color: rgb(37, 37, 37);
+}
+
+.right .container{
+   
+   width: 50%;
+   margin:50px auto 0px;
+   text-align: center;
+}
+
+.left .container{
+    background-image: url("wave.png");
+    text-align: center;
+    width:80%;
+    height:653px;
+
+}
+
+.left .container img{
+    width:700px;
+    height:600px;
+    
+}
+
+.right input{
+    display: block;
+
+}
+
+.input_info input{
+
+    margin-top:20px;
+    font-size:20px;
+    padding: 5px;
+    border-radius: 5px;
+    outline-color: rgb(17, 187, 130);
+    border: none;
+    border-bottom: 2px solid rgb(17, 187, 130);
+    width: 300px;
+}
+
+
+
+.clearfloat{
+    clear: both;
+}
+
+.container1{
+  
+    width: 50%;
+    margin:0px auto;
+    margin-top: 0px;
+}
+
+.container1 input[type="checkbox"]{
+    display: inline;
+    margin-top: 30px;
+    margin-right: 5px;
+    
+}
+
+.container1 input[type="submit"]{
+    text-align: center;
+    padding: 10px 100px;
+    margin-top: 25px;
+    border-radius:25px;
+    outline: none;
+    border: none;
+    background-color:rgb(7, 175, 119);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container1 input[type="submit"]:hover{
+    background-color: white;
+    border: 2px solid rgb(7, 175, 119);
+    color: rgb(7, 175, 119);
+}
+.container1 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(5, 33, 65);
+}
+
+input[type="password"]{
+    margin-bottom: 10px;
+}
+
+.right a{
+
+    text-decoration: none;
+    color: rgb(184, 75, 75);
+}
